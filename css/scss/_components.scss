@@ -1,0 +1,80 @@
+.button{
+    align-self: center;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $verdeOscuro;
+    outline: 2px solid $verdeOscuro;
+    padding: 8px 16px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+    font-family: $mainFont;
+    /* MD */
+    width: fit-content;
+    font-weight: 500;
+    font-size: .6rem;
+    letter-spacing: 1px;
+
+    @media (min-width: 1024px) {
+        padding: 15px 30px;
+        font-size: .8rem; 
+    }
+
+    &:hover {
+        color: #fff;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50px;
+        width: 150%;
+        height: 100%;
+        background-color: $verdeOscuro;
+        transform: scaleX(0) skewX(35deg);
+        transform-origin: left;
+        z-index: -1;
+        transition: transform 1s;
+    }
+    &:hover::before{
+        transform: scaleX(1) skewX(35deg);
+    }
+    &:hover::before {
+        transform: scaleX(1) skewX(35deg);
+    }
+}
+
+// EXTEND
+
+// .boton {
+    // border: 0;
+    //padding: 10px 15px;
+    // border-radius: 5px;
+
+ // .boton-primario {
+    //     @extend .boton
+    // }
+
+    // extiende las propiedades de la clase que le pongamos
+
+// MAP-GET
+
+// En variables:
+// $boton:(
+//     bordes: 0,
+//     padding: 20px,
+//     radio 5px
+// )
+
+// en el estilo que lo querramos aplicar lo llamamos
+// .boton {
+//     border: map-get($nombre de la lista: , $propiedad: )
+// }
+
+// EJEMPLO
+
+// .boton {
+//     border: map-get($boton: , bordes );
+// }
+// recorre las propiedades de $boton (que configuramos en _variables.scss, y como bordes vale 0, el border va a ser de 0 en la clase .boton.

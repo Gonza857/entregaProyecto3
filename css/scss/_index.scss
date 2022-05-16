@@ -1,0 +1,132 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.indexBody {
+    background-image: url(../assets/images/body-bg.png);
+}
+.headerMod {
+    background-image: url(../assets/images/header-bg1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    border-bottom: 1px solid #c7c7c7;
+    @media (min-width: 1200px) {
+        height: 700px;
+    }
+    .imgContent {
+        .headerImg {
+            height: 225px;
+            width: 225px;
+            @media (min-width: 576px) {
+                margin-left: 50px;
+            }
+            @media (min-width: 768px) {
+                height: 350px;
+                width: 350px;
+            }
+            @media (min-width: 992px) {
+                margin-left: 75px;
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 1200px) {
+                margin-left: 100px;
+                height: 500px;
+                width: 500px;
+            }
+        }
+    }
+    @media (max-width: 992px) {
+        margin-top: 0;
+    }
+}
+.cardContent {
+    .cardImg {
+        @media (min-width: 1024px) {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+#parallax1 {
+    @include parallaxProps (flex, #fff fixed no-repeat 50% 50%, cover, 100%, 200px);
+    background-image: url(../assets/images/parallax1.jpg);
+    @media (min-width: 600px) {
+        height: 300px;
+    }
+    @media (min-width: 768px) {
+        height: 350px;
+    }
+    @media (min-width: 1024px) {
+        height: 450px;
+    }
+    div {
+        h3 {
+            color: rgb(93, 93, 93);
+            text-shadow: 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0), 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0), 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0);
+        }
+        .parallaxButton {
+            @extend .button;
+            color: $blanco;
+            outline-color: $blanco;
+            font-size: 1rem;   
+            &:hover {
+                color: $verdeOscuro;
+            }
+            &::before {
+                background-color: $blanco;
+            }
+        }
+    }
+}
+#parallax2 {
+    @include parallaxProps (flex, #fff fixed no-repeat 50% 50%, cover, 100%, 200px);
+    background-image: url(../assets/images/index__resto-front.jpg);
+    @media (min-width: 600px) {
+        height: 300px;
+    }
+    @media (min-width: 768px) {
+        height: 350px;
+    }
+    @media (min-width: 1024px) {
+        height: 450px;
+    }
+        div {
+            h3 {
+                color: rgb(93, 93, 93);
+                text-shadow: 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0), 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0), 0 0 10px #FFFFFF, 0px 0px 8px rgba(0,0,0,0);
+            }
+            .button {
+                color: $blanco;
+                outline-color: $blanco;
+                font-size: 1rem;   
+                &:hover {
+                    color: $verdeOscuro;
+                }
+                &::before {
+                    background-color: $blanco;
+                }
+            }
+        }
+}
+.mainFont {
+    font-family: $mainFont;
+}
+.cardTitleMod {
+    font-family: $mainFont;
+    @media (min-width: 1200px) {
+        font-size: 2.2rem;
+    }
+}
+.cardTextMod {
+    color: map-get($fuenteBlack , color );
+    font-family: map-get($fuenteBlack , font-family );
+    @media (min-width: 1200px) {
+        font-size: 1.2rem;
+    }
+}
+.cardButton {
+    @extend .button;
+    padding: 10px 20px;
+}
+

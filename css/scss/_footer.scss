@@ -1,0 +1,24 @@
+.footer {
+    background-image: linear-gradient(to top, #93bfb7, #69aaaa);
+
+    .footer__contact-p {
+
+        @media (min-width: 768px) {
+            font-size: 1.3rem;
+        }
+    }
+
+
+    .footer__social-a {
+        color: $verdeOscuro;
+        font-size: 1.5rem;
+
+        @media (min-width: 576px) {
+            font-size: 2rem;
+        }
+        @media (min-width: 768px) {
+            font-size: 2.4rem;
+        }
+        
+    }
+}

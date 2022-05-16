@@ -1,0 +1,12 @@
+@mixin parallaxProps (
+    $dFlex,
+    $bg,
+    $sizeBg,
+    $ancho,
+    $alto) {
+    display: $dFlex;
+    background: $bg;
+    background-size: $sizeBg;
+    width: $ancho;
+    height: $alto;
+}

@@ -1,0 +1,47 @@
+
+
+.cardContent {
+    .cardText {
+        .aboutUsTitleMod {
+            @media (min-width: 768px) {
+                font-size: .7rem;
+            }
+            @media (min-width: 992px) {
+                font-size: 1.8rem;
+            }
+            @media (min-width: 1400px) {
+                font-size: 2.2rem;
+            } 
+        }
+        .aboutUsTextMod {
+            @media (min-width: 768px) {
+                font-size: .7rem;
+            }
+            @media (min-width: 992px) {
+                font-size: 1rem;
+            }
+            @media (min-width: 1200px) {
+                font-size: 1.2rem;
+            }
+        }
+        .aboutUsBtnMod {
+            @media (min-width: 992px) {
+                font-size: .8rem;
+            }
+        }
+    }
+    .aboutUsImg {
+        @media (min-width: 992px) {
+            width: 600px;
+            height: 250px;
+        }
+        @media (min-width: 1200px) {
+            width: 800px;
+            height: 300px;
+        }
+        @media (min-width: 1400px) {
+            width: 800px;
+            height: 350px;
+        }
+    }
+}

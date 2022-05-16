@@ -1,0 +1,56 @@
+.ubication {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -5px #000000;
+
+    .ubication__title {
+        font-family: $mainFont;
+        h2 {
+            @media (min-width: 1200px) {
+                font-size: 2.2rem;
+
+            }
+        }
+    }
+    .ubication__card {
+        .ubication__card-iframe {
+            height: 300px;
+
+            @media (min-width: 768px) {
+                height: 334px;
+            }
+            @media (min-width: 992px) {
+                height: 380px;
+            }
+            .ubication__iframe {
+                width: 100%;
+                border-radius: 10px;
+                @media (max-width: 767px) {
+                    width: 100%;
+                    height: 100%;
+                }
+                @media (min-width: 768px) {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .ubication__card-data {
+
+        .ubication__info {
+            font-family: $mainFont;
+            p {
+                line-height: 30px;
+            }
+        }
+        .ubication__time {
+            font-family: $mainFont;
+        }
+    }
+}
+
+.bg-lightgrey {
+    background-color: #ffffffcb;
+}
+
+
+

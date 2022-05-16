@@ -1,0 +1,35 @@
+.form {
+    max-width: 900px;
+    border-radius: 10px;
+    background-color: $verdeClaro;
+    box-shadow: 0px 0px 15px -5px #000000;
+
+    .form__title {
+        text-align: center;
+        font-family: $mainFont;
+    }
+    div {
+        .formImgBox {
+            @media (min-width:768px) {
+                padding-left: 50px;
+            }
+        }
+    }
+                   
+}
+
+.btnMod {
+    background-color: $verdeOscuro;
+    width: fit-content;
+    align-self: center;
+    color: $blanco;
+    font-family: $mainFont;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#mensaje {
+    resize: none;
+}
+
+
