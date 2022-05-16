@@ -63,47 +63,40 @@
     <!-- CUERPO -->
     <form class="form col-11 m-auto my-4 my-lg-5">
         <h2 class="form__title pt-3">Contactanos</h2>
-        <div class="form__container row d-md-flex">
-            <div class="col-12 col-md-6 formImgBox d-flex flex-column align-items-center justify-content-center">
-                <img class= "img-fluid p-2 formImg" src="../assets/images/contact.jpg" alt="Imagen del interior del restaurant">
+        <div class="form__container row d-md-flex p-3 px-md-3 py-md-1">
+          <div class="col-12 col-md-6 formImgBox d-flex flex-column align-items-center justify-content-center m-0 p-0 p-md-2 p-lg-3">
+              <img class= "img-fluid formImg rounded" src="../assets/images/contact.jpg" alt="Imagen del interior del restaurant">
+          </div>
+          <!--CONTENEDOR INPUTS-->
+          <div class="col-12 col-md-6 formInputsBox mt-3 pe-lg-3">
+            <!-- NOMBRE Y APELLIDO -->
+            <div class="row mb-2">
+              <div class="col">
+                <div class="form-outline">
+                  <label class="form-label" for="name">Nombre</label>
+                  <input type="text" id="name" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <label class="form-label" for="surname">Apellido</label>
+                  <input type="text" id="surname" class="form-control" />
+                </div>
+              </div>
             </div>
-            <!--Grid row-->
-            <div class="col-12 col-md-6 my-2 px-4 d-md-flex flex-column">
-                <!--Grid column-->
-                <div class="col-md-8 my-1 m-md-auto">
-                    <div class="md-form mb-0">
-                        <label for="nombre" class="my-1">Ingresa tu nombre</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control">
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-8 my-1 m-md-auto">
-                    <div class="md-form mb-0">
-                        <label for="apellido" class="my-1">Ingresa tu apellido</label>
-                        <input type="text" id="apellido" name="apellido" class="form-control">
-                    </div>
-                </div>
-                <!--Grid column-->
-                <!--Grid column-->
-                <div class="col-md-8 my-1 m-md-auto">
-                    <div class="md-form mb-0">
-                        <label for="email" class="my-1">Tu correo electrónico</label>
-                        <input type="text" id="email" name="email" class="form-control">
-                    </div>
-                </div>
-                <!--Grid column-->
-                <div class="col-md-8 pb-2 m-md-auto">
-                    <div class="md-form">
-                        <label for="mensaje" class="my-1">Escribe tu mensaje</label>
-                        <textarea type="text" id="mensaje" name="mensaje" rows="5" class="form-control md-textarea"></textarea>
-                    </div>
-                </div>
-                <button class="btn btnMod" type="submit">Enviar</button>
+            <!--EMAIL-->
+            <div class="form-outline mb-2">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" class="form-control" />
             </div>
-            <!--Grid column-->
+            <!-- MENSAJE-->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="mensaje">Escribe tu mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4"></textarea>
+            </div>
+            <button class="btn btnMod" type="submit">Enviar</button>
+          </div>
         </div>
-        <!--Grid row-->
     </form>
     <!-- FOOTER -->
     <footer class="footer container-fluid bg-primary">

@@ -118,8 +118,8 @@
 }
 
 .footer {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#93bfb7), to(#69aaaa));
-  background-image: linear-gradient(to top, #93bfb7, #69aaaa);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#69aaaa), to(#93bfb7));
+  background-image: linear-gradient(to top, #69aaaa, #93bfb7);
 }
 
 @media (min-width: 768px) {
@@ -488,9 +488,6 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   color: #e4f2e7;
   font-family: "Montserrat";
   padding: 10px 20px;
@@ -499,4 +496,18 @@
 
 #mensaje {
   resize: none;
+}
+
+@media (max-width: 480px) {
+  .formImgBox .formImg {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+@media (min-width: 768px) {
+  .formImgBox .formImg {
+    width: 380px;
+    height: 380px;
+  }
 }
