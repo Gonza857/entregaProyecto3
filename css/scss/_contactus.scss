@@ -3,7 +3,9 @@
     border-radius: 10px;
     background-color: $verdeClaro;
     box-shadow: 0px 0px 15px -5px #000000;
-
+    @media (max-width:768px) {
+        max-width: 350px;
+    }
     .form__title {
         text-align: center;
         font-family: $mainFont;
