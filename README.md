@@ -1,11 +1,7 @@
-Comentarios acerca del desafio entregable N° 7
+# Pre-entrega proyecto final 3.
 
-A) El extend, el mixin y el map-get para el desafio 7, se encuentra en el _index.scss.
-
-B) Se aplicó SEO en las 5 páginas, tanto en descripción de la página como tambien las "keywords" para cada página.
-
-C) Se agrego "alt" a cada imagen con su respectiva descripción.
-
-D) Todas las imagenes fueron optimizadas y recortadas según el tamaño requerido para ahorrar espacio y que cargue más rapido el sitio.
+- Se trabajo detalles de las páginas del sitio.
+- Se agregó el sitemap del sitio.
+- Se agrego el archivo README.md.
 
 Att. Gonzalo Ramos
