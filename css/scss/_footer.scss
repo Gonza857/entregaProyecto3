@@ -1,5 +1,5 @@
 .footer {
-    background-image: linear-gradient(to top, #69aaaa, #93bfb7);
+    background-image: linear-gradient(to right, #477373, #5d9898, #93bfb7);
 
     .footer__contact-p {
         @media (min-width: 768px) {
@@ -17,5 +17,16 @@
             font-size: 2.4rem;
         }
         
+    }
+}
+
+.footerLinks {
+    text-decoration: none;
+    font-family: $mainFont;
+    color: #000;
+
+    &:hover {
+        color: #477373;
+        transition: all .3s;
     }
 }

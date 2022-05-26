@@ -118,8 +118,8 @@
 }
 
 .footer {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#69aaaa), to(#93bfb7));
-  background-image: linear-gradient(to top, #69aaaa, #93bfb7);
+  background-image: -webkit-gradient(linear, left top, right top, from(#477373), color-stop(#5d9898), to(#93bfb7));
+  background-image: linear-gradient(to right, #477373, #5d9898, #93bfb7);
 }
 
 @media (min-width: 768px) {
@@ -143,6 +143,18 @@
   .footer .footer__social-a {
     font-size: 2.4rem;
   }
+}
+
+.footerLinks {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: #000;
+}
+
+.footerLinks:hover {
+  color: #477373;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .indexBody {
