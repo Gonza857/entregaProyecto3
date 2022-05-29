@@ -13,7 +13,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=New+Rocker&display=swap" rel="stylesheet">
       <!-- FONTAWESOME -->
-      <script src="https://kit.fontawesome.com/7edc31cc34.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <!-- AOS CSS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- BOOTSTRAP CSS -->
@@ -119,67 +119,53 @@
     <!-- FOOTER -->
     <footer class="footer container-fluid bg-primary col-12 pt-5">
       <div class="footer__content row p-1 col-12 ps-5">
-          <div class="col-12 d-flex flex-column mb-4">
+          <div class="col-12 d-flex flex-column mb-4 col-md-4 borderHelp">
             <h5>Contactanos</h5>
-              <p class="footer__contact-p p-0 m-0">
-                <lord-icon
-                  src="https://cdn.lordicon.com/uvextprq.json"
-                  trigger="hover"
-                  style="width:30px;height:30px"
-                  class="mx-1">
-                </lord-icon>
-                +54 9 99 9999-9999
-              </p>
-              <p class="footer__contact-p p-0 m-0">
-                <lord-icon
-                  src="https://cdn.lordicon.com/cnyeuzxc.json"
-                  trigger="hover"
-                  style="width:30px;height:30px"
-                  class="mx-1">
-                </lord-icon>
-                +54 9 99 9999-9999
-              </p>
-              <p class="footer__contact-p p-0 m-0">
-                <lord-icon
-                  src="https://cdn.lordicon.com/iicmtpsq.json"
-                  trigger="hover"
-                  style="width:30px;height:30px"
-                  class="mx-1">
-                </lord-icon>
-                elregional@gmail.com
-              </p>
-              <p class="footer__contact-p p-0 m-0">
-                <lord-icon
-                  src="https://cdn.lordicon.com/igpbsrza.json"
-                  trigger="hover"
-                  style="width:30px;height:30px"
-                  class="mx-1">
-                </lord-icon>
-                Av. San Martin 1234
-              </p>
+            <p class="footerData p-0 m-0 py-2">
+              <i class="socialIcon fas fa-phone px-2"></i>
+              +54 9 99 9999-9999
+            </p>
+            <p class="footerData p-0 m-0 py-2">
+              <i class="socialIcon fa-brands fa-whatsapp px-2"></i>
+              +54 9 99 9999-9999
+            </p>
+            <p class="footerData p-0 m-0 py-2">
+              <i class="socialIcon fas fa-envelope px-2"></i>
+              elregional@gmail.com
+            </p>
+            <p class="footerData p-0 m-0 py-2">
+              <i class="socialIcon fas fa-location-pin px-2"></i>
+              Av. San Martin 1234
+            </p>
           </div>
 
-          <div class="col-12 d-flex flex-column mb-4">
+          <div class="col-12 d-flex flex-column mb-4 col-md-4 borderHelp">
             <h5>Enlaces</h5>
-            <a class="footerLinks" href="./pages/aboutus.html">Acerca de nosotros</a>
-            <a class="footerLinks" href="./pages/contact.html">Contacto</a>
-            <a class="footerLinks" href="./pages/galery.html">Galeria</a>
-            <a class="footerLinks" href="./pages/ubication.html">Ubicación</a>
+            <a class="footerLinks py-2" href="./pages/aboutus.html">Acerca de nosotros</a>
+            <a class="footerLinks py-2" href="./pages/contact.html">Contacto</a>
+            <a class="footerLinks py-2" href="./pages/galery.html">Galeria</a>
+            <a class="footerLinks py-2" href="./pages/ubication.html">Ubicación</a>
           </div>
 
-          <div class="col-12 d-flex flex-column mb-4">
+          <div class="col-12 d-flex flex-column mb-4 col-md-4 borderHelp">
             <h5>Redes</h5>
-            <a class="footerLinks" href="./pages/aboutus.html">Instagram</a>
-            <a class="footerLinks" href="./pages/contact.html">Facebook</a>
-            <a class="footerLinks" href="./pages/galery.html">Twitter</a>
+
+            <a class="footerLinks" href="./pages/aboutus.html">
+              <i class="socialIcon fab fa-instagram px-2"></i>
+              Instagram
+            </a>
+          
+            <a class="footerLinks" href="./pages/contact.html">
+              <i class="socialIcon fab fa-facebook px-2"></i>
+              Facebook
+            </a>
+
+            <a class="footerLinks" href="./pages/galery.html">
+              <i class="socialIcon fab fa-twitter px-2"></i>
+              Twitter
+            </a>
           </div>
 
-          <div class="footer__social col-12 d-flex flex-row justify-content-evenly my-1 my-sm-3">
-              <a class="footer__social-a" href="#"><i class="fa fa-instagram"></i></a>
-              <a class="footer__social-a" href="#"><i class="fa fa-facebook"></i></a>
-              <a class="footer__social-a" href="#"><i class="fa fa-twitter"></i></a>
-              </div>
-          </div>
           <div class="row d-flex flex-column text-center my-1 flex-md-row">
             <p class="footer__credits-p col-md-6">© 2022 El Regional — Todos los derechos reservados.</p>
             <p class="footer__credits-p col-md-6">Designed and developed by Gonzalo Ramos</p>
@@ -197,8 +183,6 @@
     <script>
       AOS.init();
     </script>
-    <!-- LORDICON -->
-    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
   </body>
 </html>
 

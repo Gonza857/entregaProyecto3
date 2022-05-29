@@ -122,26 +122,19 @@
   background-image: linear-gradient(to right, #477373, #5d9898, #93bfb7);
 }
 
-@media (min-width: 768px) {
-  .footer .footer__contact-p {
-    font-size: 1.3rem;
-  }
+.borderHelp {
+  border: 3px solid red;
 }
 
-.footer .footer__social-a {
-  color: #2D3E40;
-  font-size: 1.5rem;
+.footerData {
+  font-family: "Montserrat";
+  color: #000;
+  padding: 5px 0px;
 }
 
-@media (min-width: 576px) {
-  .footer .footer__social-a {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer .footer__social-a {
-    font-size: 2.4rem;
+@media (min-width: 1200px) {
+  .footerData {
+    font-size: 1.2rem;
   }
 }
 
@@ -149,12 +142,26 @@
   text-decoration: none;
   font-family: "Montserrat";
   color: #000;
+  padding: 5px 0px;
+}
+
+@media (min-width: 1200px) {
+  .footerLinks {
+    font-size: 1.2rem;
+  }
 }
 
 .footerLinks:hover {
-  color: #477373;
+  color: #707070;
+  text-decoration: underline;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+@media (min-width: 1200px) {
+  .socialIcon {
+    font-size: 1.8rem;
+  }
 }
 
 .indexBody {
