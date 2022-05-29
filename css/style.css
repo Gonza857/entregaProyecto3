@@ -122,10 +122,6 @@
   background-image: linear-gradient(to right, #477373, #93bfb7);
 }
 
-.borderHelp {
-  border: 3px solid red;
-}
-
 .footerTitles {
   font-family: "Montserrat";
   font-size: 1rem;
@@ -172,12 +168,6 @@
 @media (min-width: 1200px) {
   .socialIcon {
     font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .footerBoxMod {
-    width: 300px !important;
   }
 }
 
