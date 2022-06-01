@@ -13,7 +13,11 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=New+Rocker&display=swap" rel="stylesheet">
       <!-- FONTAWESOME -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
       <!-- AOS CSS -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <!-- BOOTSTRAP CSS -->
@@ -31,6 +35,7 @@
     <header class="p-0 headerMod d-flex flex-column">
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
+          <!-- / LOGO NAVBAR / -->
           <a class="navbar-brand d-md-none" href="./index.html">El Regional</a>
           <button 
             class="navbar-toggler" type="button" data-bs-toggle="offcanvas"   data-bs-target="#offcanvas"   aria-controls="offcanvas">
@@ -41,18 +46,20 @@
             <div class="offcanvas-header offCanvasHeaderMod">
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <!-- /// BARRA DE NAVEGACION /// -->
             <div class="offcanvas-body">
-              <!-- LEFT LIST -->
+              <!-- / PARTE IZQUIERDA / -->
               <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
                 <li class="nav-item">
                   <a class="nav-link" href="./pages/aboutus.html">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/galery.html">Galeria</a>
+                  <a class="nav-link" href="./pages/gallery.html">Galeria</a>
                 </li>
               </ul>
+              <!--  / LOGO NAVBAR LATERAL / -->
               <a class="navbar-brand d-none d-md-block" href="./index.html">El Regional</a>
-              <!-- RIGHT LIST -->
+              <!-- / PARTE DERECHA / -->
               <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
                 <li class="nav-item">
                   <a class="nav-link" href="./pages/ubication.html">Ubicacion</a>
@@ -65,6 +72,7 @@
           </div>
         </div>
       </nav>
+      <!-- / IMAGEN DEL HEADER / -->
       <div class="imgContent my-auto">
         <img src="./assets/images/indexHeaderLogo.png" alt="Logo El Regional - Restaurante Tradicional" class="headerImg">
       </div>
@@ -93,7 +101,7 @@
       <div class="cutImg my-5 d-flex justify-content-center" id="parallax1">
             <div class="d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-duration="3000">
               <h3 class="mainFont">Descubre nuestros platos</h3>
-              <a href="./pages/galery.html" class="parallaxButton my-lg-5 mainFont">Ver galeria</a>
+              <a href="./pages/gallery.html" class="parallaxButton my-lg-5 mainFont">Ver galeria</a>
             </div>
       </div>
       <!-- CARD 2 -->
@@ -116,11 +124,10 @@
         </div>
       </div>
     </main>
-    <!-- FOOTER -->
+    <!-- ///// FOOTER ///// -->
     <footer class="footer container-fluid bg-primary col-12 pt-5">
-
       <div class=" p-1 col-12 d-flex flex-column flex-sm-row flex-wrap justify-content-evenly">
-
+        <!-- / FORMAS DE CONTACTO -FOOTER -->
         <div class="w-auto d-flex flex-column mb-4 ps-5 ps-sm-0">
           <h5 class="footerTitles">Contactanos</h5>
           <p class="footerData p-0 m-0 py-2">
@@ -140,37 +147,40 @@
             Av. San Martin 1234
           </p>
         </div>
-
+        <!-- / ENLACES DIRECTOS - FOOTER / -->
         <div class="w-auto d-flex flex-column mb-4 ps-5 ps-sm-0">
           <h5 class="footerTitles">Enlaces</h5>
           <a class="footerLinks py-2" href="./pages/aboutus.html">Acerca de nosotros</a>
           <a class="footerLinks py-2" href="./pages/contact.html">Contacto</a>
-          <a class="footerLinks py-2" href="./pages/galery.html">Galeria</a>
+          <a class="footerLinks py-2" href="./pages/gallery.html">Galeria</a>
           <a class="footerLinks py-2" href="./pages/ubication.html">Ubicación</a>
         </div>
-
-        <div class="w-auto d-flex flex-column mb-4 ps-5 ps-sm-0">
+        <!-- / ENLACE A RRSS - FOOTER -->
+        <div class="w-auto d-flex flex-column mb-4 ps-5 ps-sm-0 pb-3">
           <h5 class="footerTitles">Redes</h5>
-          <a class="footerLinks" href="./pages/aboutus.html">
+          <a class="footerLinks" href="#">
             <i class="socialIcon fab fa-instagram px-2"></i>
             Instagram
           </a>
-          <a class="footerLinks" href="./pages/contact.html">
+          <a class="footerLinks" href="#">
             <i class="socialIcon fab fa-facebook px-2"></i>
             Facebook
           </a>
-          <a class="footerLinks" href="./pages/galery.html">
+          <a class="footerLinks" href="#">
             <i class="socialIcon fab fa-twitter px-2"></i>
             Twitter
           </a>
         </div>
-
-          <div class="row d-flex flex-column text-center my-1 flex-md-row borderHelp m-auto col-12">
-            <p class="footer__credits-p col-md-6">© 2022 El Regional — Todos los derechos reservados.</p>
-            <p class="footer__credits-p col-md-6">Designed and developed by Gonzalo Ramos</p>
-          </div>
+        <!-- / LINEA / -->
+        <span class="border-topMod"></span>
+        <!-- / CREDITOS - FOOTER -->
+        <div class="row d-flex flex-column text-center my-1 flex-md-row borderHelp m-auto col-12">
+          <p class="footerCredits col-md-6">© 2022 El Regional — Todos los derechos reservados.</p>
+          <p class="footerCredits col-md-6">Designed and developed by Gonzalo Ramos</p>
+        </div>
       </div>
     </footer>
+    <!-- ///// FIN DEL FOOTER ///// -->
     <!-- BOOTSTRAP -->
     <script 
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 

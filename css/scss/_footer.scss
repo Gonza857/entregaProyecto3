@@ -25,14 +25,29 @@
         font-size: 1.2rem;
     }
     &:hover {
-        color: #707070;
-        text-decoration: underline;
+        color: #000;
+        text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
         transition: all .3s;
     }
 }
 .socialIcon {
+    &:hover {
+        text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
+        transition: all .3s !important;
+    }
     @media (min-width:1200px) {
         font-size: 1.8rem;
     }
+}
+
+.footerCredits {
+    font-family: $mainFont;
+}
+
+.border-topMod {
+    width: 70%;
+    padding-bottom: 20px;
+    margin: auto;
+    border-top: 1px solid #477373 !important;
 }
 

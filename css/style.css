@@ -159,16 +159,33 @@
 }
 
 .footerLinks:hover {
-  color: #707070;
-  text-decoration: underline;
+  color: #000;
+  text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
   -webkit-transition: all .3s;
   transition: all .3s;
+}
+
+.socialIcon:hover {
+  text-shadow: 0 0 10px #b1e8de, 0 0 10px #b1e8de, 0 0 10px #b1e8de;
+  -webkit-transition: all .3s !important;
+  transition: all .3s !important;
 }
 
 @media (min-width: 1200px) {
   .socialIcon {
     font-size: 1.8rem;
   }
+}
+
+.footerCredits {
+  font-family: "Montserrat";
+}
+
+.border-topMod {
+  width: 70%;
+  padding-bottom: 20px;
+  margin: auto;
+  border-top: 1px solid #477373 !important;
 }
 
 .indexBody {
@@ -540,15 +557,46 @@
   }
 }
 
-.btnMod {
-  background-color: #2D3E40;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #e4f2e7;
-  font-family: "Montserrat";
-  padding: 10px 20px;
-  margin: 10px 0;
+.button, #parallax1 div .parallaxButton, .cardButton {
+  width: 120px;
+  height: 50px;
+  background-color: #202231;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: width .5s, border-radius .5s;
+  transition: width .5s, border-radius .5s;
+}
+
+.button *, #parallax1 div .parallaxButton *, .cardButton * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity .25s;
+  transition: opacity .25s;
+}
+
+.icon {
+  opacity: 0;
+}
+
+.button:focus, #parallax1 div .parallaxButton:focus, .cardButton:focus {
+  width: 30px;
+  background-color: #44c08a;
+  border-radius: 50%;
+}
+
+.button:focus .text, #parallax1 div .parallaxButton:focus .text, .cardButton:focus .text {
+  opacity: 0;
+}
+
+.button:focus .icon, #parallax1 div .parallaxButton:focus .icon, .cardButton:focus .icon {
+  opacity: 1;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
 }
 
 #mensaje {
