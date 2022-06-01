@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
     <!-- DESCRIPCION -->
     <meta name="description" content="Contactanos para hacer tu reserva en nuestro restaurant. Tambien podes hacer tu reserva presencialmente.">
     <!-- KEYWORDS -->
@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=New+Rocker&display=swap" rel="stylesheet">
     <!-- FONTAWESOME -->
     <link 
-    rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer"/> 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer"/> 
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- BOOTSTRAP CSS -->
@@ -27,87 +27,95 @@
     <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Contactanos</title>
-</head>
-<body>
-    <!-- NAVBAR -->
+  </head>
+  <body>
+    <!-- ///// NAVBAR ///// -->
     <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand d-md-none" href="../index.html">El Regional</a>
-          <button 
-            class="navbar-toggler" type="button" data-bs-toggle="offcanvas"   data-bs-target="#offcanvas"   aria-controls="offcanvas">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end p-0 w-50"
-          tabindex="-1" id="offcanvas"    aria-labelledby="offcanvasLabel">
-            <div class="offcanvas-header offCanvasHeaderMod">
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <!-- LEFT LIST -->
-              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                  <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./gallery.html">Galeria</a>
-                </li>
-              </ul>
-              <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
-              <!-- RIGHT LIST -->
-              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                  <a class="nav-link" href="./ubication.html">Ubicacion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contactanos</a>
-                </li>
-              </ul>
-            </div>
+      <div class="container-fluid">
+        <!-- / LOGO NAVBAR / -->
+        <a class="navbar-brand d-md-none" href="../index.html">El Regional</a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="offcanvas"   
+          data-bs-target="#offcanvas" 
+          aria-controls="offcanvas">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div 
+          class="offcanvas offcanvas-end p-0 w-50"
+          tabindex="-1" id="offcanvas"    
+          aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header offCanvasHeaderMod">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- /// BARRA DE NAVEGACION /// -->
+          <div class="offcanvas-body">
+            <!-- PARTE IZQUIERDA -->
+            <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Galeria</a>
+              </li>
+            </ul>
+            <!-- / LOGO NAVBAR LATERAL / -->
+            <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
+            <!-- / PARTE DERECHA / -->
+            <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+              <li class="nav-item">
+                <a class="nav-link" href="./ubication.html">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
     </nav>
+    <!-- ////// FIN DE NAVBAR ////// -->
     <!-- ///// FORMULARIO DEL CUERPO ///// -->
     <form class="form col-11 m-auto my-4 my-lg-5">
       <!-- / TITULO DEL FORMULARIO / -->
       <h2 class="form__title pt-3">Contactanos</h2>
-        <div class="form__container row d-md-flex p-3 px-md-3 py-md-1">
-          <div class="col-12 col-md-6 formImgBox d-flex flex-column align-items-center justify-content-center m-0 p-0 p-md-2 p-lg-3">
-              <img class= "img-fluid formImg rounded" src="../assets/images/contact.jpg" alt="Imagen del interior del restaurant">
-          </div>
-          <!--CONTENEDOR INPUTS-->
-          <div class="col-12 col-md-6 formInputsBox mt-3 pe-lg-3">
-            <!-- NOMBRE Y APELLIDO -->
-            <div class="row mb-2">
-              <div class="col">
-                <div class="form-outline">
-                  <label class="form-label" for="name">Nombre</label>
-                  <input type="text" id="name" class="form-control" />
-                </div>
-              </div>
-              <div class="col">
-                <div class="form-outline">
-                  <label class="form-label" for="surname">Apellido</label>
-                  <input type="text" id="surname" class="form-control" />
-                </div>
-              </div>
-            </div>
-            <!--EMAIL-->
-            <div class="form-outline mb-2">
-              <label class="form-label" for="email">Email</label>
-              <input type="email" id="email" class="form-control" />
-            </div>
-            <!-- MENSAJE-->
-            <div class="form-outline mb-4">
-              <label class="form-label" for="mensaje">Escribe tu mensaje</label>
-              <textarea class="form-control" id="mensaje" rows="4"></textarea>
-            </div>
-            <button class="button">
-              <span class="text">Enviar</span>
-              <i class="ri-check-line icon"></i>
-            </button>
-          </div>
+      <div class="form__container row d-md-flex p-3 px-md-3 py-md-1">
+        <div class="col-12 col-md-6 formImgBox d-flex flex-column align-items-center justify-content-center m-0 p-0 p-md-2 p-lg-3">
+          <img class= "img-fluid formImg rounded" src="../assets/images/contact.jpg" alt="Imagen del interior del restaurant">
         </div>
+        <!--CONTENEDOR INPUTS-->
+        <div class="col-12 col-md-6 formInputsBox mt-3 pe-lg-3">
+          <!-- NOMBRE Y APELLIDO -->
+          <div class="row mb-2">
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="name">Nombre</label>
+                <input type="text" id="name" class="form-control" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="surname">Apellido</label>
+                <input type="text" id="surname" class="form-control" />
+              </div>
+            </div>
+          </div>
+          <!--EMAIL-->
+          <div class="form-outline mb-2">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" class="form-control" />
+          </div>
+          <!-- MENSAJE-->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="mensaje">Escribe tu mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          </div>
+          <button class="btn btnMod" type="submit">Enviar</button>
+        </div>
+      </div>
     </form>
+    <!-- ///// FIN FORMULARIO ///// -->
     <!-- ///// FOOTER ///// -->
     <footer class="footer container-fluid bg-primary col-12 pt-5">
       <div class=" p-1 col-12 d-flex flex-column flex-sm-row flex-wrap justify-content-evenly">
@@ -174,5 +182,5 @@
     </script>
     <!-- LORDICON -->
     <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
-</body>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,51 +21,59 @@
     <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Acerca de nosotros</title>
-</head>
-<body class="container-fluid p-0 indexBody">
+  </head>
+  <body class="container-fluid p-0 indexBody">
     <!-- ///// NAVBAR ///// -->
     <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand d-md-none" href="../index.html">El Regional</a>
-          <button 
-            class="navbar-toggler" type="button" data-bs-toggle="offcanvas"   data-bs-target="#offcanvas" aria-controls="offcanvas">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end p-0 w-50"
-          tabindex="-1" id="offcanvas"    aria-labelledby="offcanvasLabel">
-            <div class="offcanvas-header offCanvasHeaderMod">
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <!-- LEFT LIST -->
-              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                  <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./gallery.html">Galeria</a>
-                </li>
-              </ul>
-              <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
-              <!-- RIGHT LIST -->
-              <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
-                <li class="nav-item">
-                  <a class="nav-link" href="./ubication.html">Ubicacion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contactanos</a>
-                </li>
-              </ul>
-            </div>
+      <div class="container-fluid">
+        <!-- / LOGO NAVBAR / -->
+        <a class="navbar-brand d-md-none" href="../index.html">El Regional</a>
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="offcanvas"   
+          data-bs-target="#offcanvas" 
+          aria-controls="offcanvas">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div 
+          class="offcanvas offcanvas-end p-0 w-50"
+          tabindex="-1" id="offcanvas"    
+          aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header offCanvasHeaderMod">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- /// BARRA DE NAVEGACION /// -->
+          <div class="offcanvas-body">
+            <!-- PARTE IZQUIERDA -->
+            <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html">Acerca de nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Galeria</a>
+              </li>
+            </ul>
+            <!-- / LOGO NAVBAR LATERAL / -->
+            <a class="navbar-brand d-none d-md-block" href="../index.html">El Regional</a>
+            <!-- / PARTE DERECHA / -->
+            <ul class="navbar-nav text-center navbar-nav w-100 d-flex align-items-center justify-content-evenly">
+              <li class="nav-item">
+                <a class="nav-link" href="./ubication.html">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contactanos</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
     </nav>
     <!-- ////// FIN DE NAVBAR ////// -->
     <!-- ///// CUERPO ////// -->
     <main>
       <!-- / CARD 1 / -->
-      <div 
-        class="cardMod p-2 d-flex justify-content-center mb-5 mt-md-5">
+      <div class="cardMod p-2 d-flex justify-content-center mb-5 mt-md-5">
         <div class="cardContent row col-md-10 col-xxl-9 d-md-flex justify-content-center">
           <div class="cardText text-center col-md-6 d-md-flex flex-column justify-content-evenly">
             <h3 class="my-2 m-md-0 cardTitleMod aboutUsTitleMod">Nuestros Productos</h3>
@@ -87,14 +95,14 @@
         <div class="cardContent row col-md-10 col-xxl-9 d-md-flex justify-content-center">
           <div class="cardText text-center col-md-6 d-md-flex flex-column justify-content-evenly order-0 order-md-1">
             <h3 class="my-2 m-md-0 aboutUsTitleMod">Nuestros cocineros</h3>
-              <p class="my-2 mb-md-3 px-lg-2 cardTextMod aboutUsTextMod aboutUsTextMod">Contamos con cocineros especializados en platos tradicionales argentinos con experiencia en esta gastronomía. Además con standares internacionales de calidad gastronómica, lo que nos hace destacar como restaurante de comidas típicas argentinas.</p>
-              <a href="./pages/aboutus.html" class="button aboutUsBtnMod">Leer más</a>
-            </div>
-            <div class="cardImgBox mt-3 col-md-6 mt-md-0 d-md-flex justify-content-center order-1 order-md-0">
-              <img src="../assets/images/aboutus2.jpg" alt="" class="aboutUsImg img-fluid rounded">
-            </div>
+            <p class="my-2 mb-md-3 px-lg-2 cardTextMod aboutUsTextMod aboutUsTextMod">Contamos con cocineros especializados en platos tradicionales argentinos con experiencia en esta gastronomía. Además con standares internacionales de calidad gastronómica, lo que nos hace destacar como restaurante de comidas típicas argentinas.</p>
+            <a href="./pages/aboutus.html" class="button aboutUsBtnMod">Leer más</a>
+          </div>
+          <div class="cardImgBox mt-3 col-md-6 mt-md-0 d-md-flex justify-content-center order-1 order-md-0">
+            <img src="../assets/images/aboutus2.jpg" alt="" class="aboutUsImg img-fluid rounded">
           </div>
         </div>
+      </div>
     </main>
     <!-- ///// FIN DEL CUERPO ///// -->
     <!-- ///// FOOTER ///// -->
@@ -163,5 +171,5 @@
     </script>
     <!-- LORDICON -->
     <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
-</body>
+  </body>
 </html>
