@@ -84,6 +84,7 @@
   letter-spacing: 2px;
   -webkit-transition: all .3s;
   transition: all .3s;
+  padding-left: 15px;
 }
 
 .navbar .navbar-brand:hover {
@@ -377,6 +378,10 @@
 
 .cardButton {
   padding: 10px 20px;
+}
+
+.cardImgBox {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
