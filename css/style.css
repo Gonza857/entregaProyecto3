@@ -130,7 +130,7 @@
 
 @media (min-width: 1200px) {
   .footerTitles {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -142,7 +142,7 @@
 
 @media (min-width: 1200px) {
   .footerData {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -155,7 +155,7 @@
 
 @media (min-width: 1200px) {
   .footerLinks {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
