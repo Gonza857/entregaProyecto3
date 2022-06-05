@@ -22,7 +22,6 @@
   -webkit-transition: color 1s;
   transition: color 1s;
   font-family: "Montserrat";
-  /* MD */
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -538,6 +537,10 @@
   background-color: #ffffffcb;
 }
 
+.contactBody {
+  background-image: url(../assets/images/body-bg.png);
+}
+
 .form {
   max-width: 900px;
   border-radius: 10px;
@@ -546,7 +549,7 @@
           box-shadow: 0px 0px 15px -5px #000000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.9px) {
   .form {
     max-width: 350px;
   }

@@ -1,9 +1,12 @@
+.contactBody {
+    background-image: url(../assets/images/body-bg.png);
+}
 .form {
     max-width: 900px;
     border-radius: 10px;
     background-color: $verdeClaro;
     box-shadow: 0px 0px 15px -5px #000000;
-    @media (max-width:768px) {
+    @media (max-width:767.9px) {
         max-width: 350px;
     }
     .form__title {
@@ -18,7 +21,6 @@
         }
     }      
 }
-
 .btnMod {
     background-color: $verdeOscuro;
     width: fit-content;
@@ -32,11 +34,9 @@
         transition: .3s all;
     }
 }
-
 #mensaje {
     resize: none;
 }
-
 .formImgBox {
     .formImg {
         @media (max-width:480px) {
@@ -47,7 +47,6 @@
             width: 380px;
             height: 380px;
         }
-
     }
 }
 

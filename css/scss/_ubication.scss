@@ -8,14 +8,12 @@
         h2 {
             @media (min-width: 1200px) {
                 font-size: 2.2rem;
-
             }
         }
     }
     .ubication__card {
         .ubication__card-iframe {
             height: 300px;
-
             @media (min-width: 768px) {
                 height: 334px;
             }
@@ -39,7 +37,6 @@
         }
     }
     .ubication__card-data {
-
         .ubication__info {
             font-family: $mainFont;
             p {
@@ -62,7 +59,6 @@
         }
     }
 }
-
 .bg-lightgrey {
     background-color: #ffffffcb;
 }
