@@ -537,10 +537,6 @@
   background-color: #ffffffcb;
 }
 
-.contactBody {
-  background-image: url(../assets/images/body-bg.png);
-}
-
 .form {
   max-width: 900px;
   border-radius: 10px;
