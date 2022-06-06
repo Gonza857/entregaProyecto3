@@ -42,7 +42,7 @@ Este sitio web fue desarrollado para un futuro restaurante.
 https://github.com/Gonza857/proyectoFinalCoder
 
 - Link de Github Pages
-https://gonza857.github.io/entregaFinalCoder/
+https://gonza857.github.io/proyectoFinalCoder/
 
 - Link de 000webhost
 https://proyectofinalcodergonza857.000webhostapp.com/index
